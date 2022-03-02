@@ -1,8 +1,11 @@
 
 /* body part */
-.video-wrapper  {
-    width: 400px;
-    height: auto;
+#myVideo  {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 10%;
+    min-height: 10%;
 }
 .cards {
     margin: 0 auto;
@@ -71,4 +74,24 @@
 
 .card__link:hover {
     text-decoration: underline;
+}
+.topnav  {
+    background-color: black;
+    overflow: hidden;
+}
+.topnav a  {
+    float: left;
+    color: aqua;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: double;
+    font-size: large;
+}
+.topnav a:hover  {
+    background-color: brown;
+    color: blue;
+}
+.topnav a.active  {
+    background-color: green;
+    color: yellowgreen;
 }
